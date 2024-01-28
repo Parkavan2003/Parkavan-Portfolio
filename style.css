@@ -41,7 +41,7 @@ section h2{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background:black;
+    background:var(--second-black);
     height: 65px;
     box-shadow: 0 0 10px var(--black-color);
 }
