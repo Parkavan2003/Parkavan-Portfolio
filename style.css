@@ -42,7 +42,7 @@ section h2{
     justify-content: space-between;
     align-items: center;
     background:black;
-    height: 80px;
+    height: 65px;
     box-shadow: 0 0 10px var(--black-color);
 }
 .logo img{
@@ -100,6 +100,10 @@ section h2{
     text-decoration: none;
     font-weight: 400;
     
+}
+.btn a{
+    text-decoration: none;
+    color: var(--bg-color);
 }
 .btn i{
     font-size: .8rem;
@@ -267,12 +271,12 @@ section h2{
 .project-cards{
     display: flex;
     justify-self: center;
-    flex-wrap: wrap;
-    margin-top: 50px;
+    flex-wrap: nowrap;
+    margin-top: 20px;
 }
 .card{
-    width: 270px;
-    height: 400px;
+    width: 280px;
+    height: 380px;
     background-color: var(--bg-color);
     border-radius: 20px;
     overflow: hidden;
@@ -304,17 +308,18 @@ section h2{
 .card-content p{
     line-height: 1.2;
     font-size: small;
+    text-align: justify;
 }
 .card-btn{
     display: inline-block;
-    padding: 6px 16px;
+    padding: 3px 16px;
     background: var(--main-color);
     border-radius: 4px;
     margin-top: 12px;
     color: var(--text-color);
     margin-bottom: 1rem;
     cursor: pointer;
-    margin-left: 3.8rem;
+    margin-left: 3rem;
 }
 .card-btn i{
     font-size: 12px;
@@ -329,7 +334,6 @@ section h2{
 .contact{
     color: var(--second-text-color);
     font-size: 1.1rem;
-    border-bottom: 1px solid var(--second-text-color);
 }
 .contact .heading{
     font-size: 2.3rem;
@@ -343,6 +347,7 @@ section h2{
     width: 80%;
     margin: auto;
     text-align: center;
+    font-size: .9rem;
 }
 .contact a{
     text-decoration: none;
@@ -365,7 +370,6 @@ section h2{
     border-radius: 10px;
     box-shadow: 0 0 1rem var(--black-color);
     padding: 2rem 4rem;
-    background: var();
     margin: auto;
 }
 .left-bar{
@@ -446,6 +450,8 @@ textarea{
 footer{
     display: flex;
     flex-direction: column;
+    border-top: 1px solid var(--second-text-color);
+    margin-top: 2rem;
 }
 .footer{
    display: flex;
@@ -470,6 +476,10 @@ footer{
 .attributes{
     padding-right: 5rem;
     border-right: 1px solid var(--second-text-color);
+}
+.attributes ul a{
+    text-decoration: none;
+    color: var(--second-text-color);
 }
 .attributes ul li{
     list-style: none;
